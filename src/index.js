@@ -118,16 +118,16 @@ submit.addEventListener('click',(e)=>{
 //function to loop through the array and displays each product on the page
 function displayArray(doc){
         const cardContainer = document.getElementById('cardContainer');
-        const cards = document.createElement('div');
-        const id = document.createElement('div');
-        const name = document.createElement("div");
-        const weight = document.createElement("div");
-        const price = document.createElement("div");
-        const inventory = document.createElement("div");
-        const model = document.createElement("div");
-        const cardButtons = document.createElement('div');
-        const editCard = document.createElement('button');
-        const removeCard = document.createElement('button');
+            const cards = document.createElement('div');
+                const id = document.createElement('div');
+                const name = document.createElement("div");
+                const weight = document.createElement("div");
+                const price = document.createElement("div");
+                const inventory = document.createElement("div");
+                const model = document.createElement("div");
+                const cardButtons = document.createElement('div');
+                const editCard = document.createElement('button');
+                const removeCard = document.createElement('button');
 
         cards.classList.add('cards');
         cards.setAttribute('id', doc.id)
